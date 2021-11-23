@@ -1,0 +1,68 @@
+*{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.animation{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition : transform 1s;
+    animation-name: rooling;
+    animation-duration: 5s;
+    
+    
+}
+
+@keyframes rooling{
+
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(90deg);
+      }
+0%{
+   
+    left: 0;
+    top: 0;
+}
+
+20%{
+    
+    left: 100px;
+    top: 100px;
+}
+40%{
+    
+    left: 200px;
+    top: 200px;
+}
+60%{
+    
+    left: 300px;
+    top: 300px;
+}
+80%{
+    
+    left: 400px;
+    top: 400px;
+}
+
+100%{
+    
+    left: 500px;
+    top: 500px;
+}
+
+
+}
+
+
+
+
+/* .animation:hover{
+    transform: rotate(90deg)
+} */
+
+
